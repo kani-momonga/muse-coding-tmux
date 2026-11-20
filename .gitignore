@@ -1,0 +1,4 @@
+agent-runs/
+*.pane.log
+*.log
+__pycache__/

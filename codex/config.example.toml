@@ -1,0 +1,7 @@
+# Add to ~/.codex/config.toml (top level, before any [section]).
+# Replace the path with the absolute path of codex/notify-agent.py
+# (Codex does not expand $HOME here). The script appends one JSONL line
+# per event to $AGENT_RUNS_DIR/codex-events.log (default ~/agent-runs),
+# which gives you a reliable "agent finished a turn" signal.
+
+notify = ["python3", "/home/YOUR_USER/.codex/notify-agent.py"]
